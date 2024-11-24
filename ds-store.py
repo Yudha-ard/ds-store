@@ -18,6 +18,7 @@ import queue
 import threading
 from io import BytesIO
 import requests
+from colorama import Fore, Back, Style
 
 class BuddyError(Exception):
     pass
@@ -1724,10 +1725,20 @@ class scanner(object):
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
-        print()
-        print('Usage: python main.py https://www.site.com/.DS_Store')
+        print(
+        f"""
+        
+           __   ___     ___ __        {Fore.YELLOW}v.1.0{Fore.GREEN}              
+          / _ \/ __/___/ __/ /____  _______ 
+         / // /\ \/___/\ \/ __/ _ \/ __/ -_)
+        {Fore.WHITE}/____/___/   /___/\__/\___/_/  \__/ {Fore.WHITE}
+            
+        {Fore.RED}DS-Store{Fore.WHITE} - {Fore.YELLOW}.DS-Store file parsher.{Fore.WHITE}
+        @Yudha_Ard (https://github.com/yudha-ard)
+            
+        usage : {Fore.YELLOW}main.py {Fore.GREEN}https://www.site.com/.DS_Store{Fore.WHITE}
+        """)
+
         sys.exit(0)
     s = scanner(sys.argv[1])
     s.scan()
-
-
