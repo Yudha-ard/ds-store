@@ -17,7 +17,7 @@ The DS-Store file parser is a tool designed to read and interpret .DS_Store file
 ``` bash
 ▶ git clone https://github.com/Yudha-ard/ds-store.git && cd ds-store
 
-▶ pip  install  -r  requirements.txt
+▶ pip install -r requirements.txt
 ```  
 
 ## Usage
