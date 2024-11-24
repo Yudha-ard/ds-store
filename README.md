@@ -24,5 +24,3 @@ The DS-Store file parser is a tool designed to read and interpret .DS_Store file
 ```bash
 ▶ python3 ds-store https://example.com/.DS_Store
 ```
-
-## Usage
