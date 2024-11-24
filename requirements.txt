@@ -1,14 +1,5 @@
-mac-alias
-binascii
-bisect
-os
-struct
-plistlib
 mac_alias
 argparse
-pprint
-re
-sys
 urllib3
 requests
 colorama
